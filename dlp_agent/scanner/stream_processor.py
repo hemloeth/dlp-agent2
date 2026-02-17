@@ -1,4 +1,6 @@
 import logging
+import os
+import docx
 from dlp_agent.detectors import detect_credit_cards, detect_aadhaar, detect_pan
 from dlp_agent.events.sinks import EventSink
 
@@ -19,6 +21,29 @@ class StreamProcessor:
         if rules.get('pan', {}).get('enabled', False):
             self.detectors.append(detect_pan)
 
+    def _get_content_iterator(self, file_path: str):
+        """
+        Returns an iterator that yields (line_num, content).
+        Handles different file types based on extension.
+        """
+        _, ext = os.path.splitext(file_path)
+        ext = ext.lower()
+
+        if ext == '.docx':
+            try:
+                doc = docx.Document(file_path)
+                for i, para in enumerate(doc.paragraphs, 1):
+                    yield i, para.text
+            except Exception as e:
+                logging.error(f"Error reading docx {file_path}: {e}")
+        elif ext == '.doc':
+            logging.warning(f"File {file_path} is in .doc format. Only .docx is currently supported for Word documents.")
+        else:
+            # Default text processing
+            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                for line_num, line in enumerate(f, 1):
+                    yield line_num, line
+
     def process_file(self, file_path: str) -> int:
         """
         Process a file and emit findings to sinks.
@@ -26,37 +51,35 @@ class StreamProcessor:
         """
         findings_count = 0
         try:
-            # Using 'errors="ignore"' to skip decoding errors
-            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-                for line_num, line in enumerate(f, 1):
-                    line_content = line.strip()
-                    if not line_content:
-                        continue
+            for line_num, line_content in self._get_content_iterator(file_path):
+                line_content = line_content.strip()
+                if not line_content:
+                    continue
+                    
+                for detector in self.detectors:
+                    file_events = detector(line_content)
+                    for event in file_events:
+                        # Populate source info
+                        event.source = {
+                            "type": "file",
+                            "path": file_path,
+                            "line": line_num
+                        }
                         
-                    for detector in self.detectors:
-                        file_events = detector(line_content)
-                        for event in file_events:
-                            # Populate source info
-                            event.source = {
-                                "type": "file",
-                                "path": file_path,
-                                "line": line_num
-                            }
+                        # Deduplication check
+                        # Key: hash + rule + file + line
+                        dedup_key = f"{event.hash}:{event.rule}:{file_path}:{line_num}"
+                        
+                        if dedup_key in self.seen_hashes:
+                            continue
                             
-                            # Deduplication check
-                            # Key: hash + rule + file + line
-                            dedup_key = f"{event.hash}:{event.rule}:{file_path}:{line_num}"
+                        self.seen_hashes.add(dedup_key)
+                        
+                        # Emit to all sinks
+                        for sink in self.sinks:
+                            sink.emit(event)
                             
-                            if dedup_key in self.seen_hashes:
-                                continue
-                                
-                            self.seen_hashes.add(dedup_key)
-                            
-                            # Emit to all sinks
-                            for sink in self.sinks:
-                                sink.emit(event)
-                                
-                            findings_count += 1
+                        findings_count += 1
                             
         except Exception as e:
             logging.error(f"Error processing file {file_path}: {str(e)}")

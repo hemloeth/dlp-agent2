@@ -9,7 +9,8 @@ DEFAULT_POLICY = {
     },
     "scan": {
         "maxFileSizeMB": 10,
-        "allowedExtensions": [".txt", ".log", ".csv", ".json", ".xml", ".md"],
+        "allowedExtensions": [".txt", ".log", ".csv", ".json", ".xml", ".md" ,".doc",
+        ".docx"],
         "excludedPaths": ["/proc", "/sys", "/dev", "/node_modules", "/.git"]
     }
 }
