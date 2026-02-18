@@ -1,5 +1,441 @@
 ('C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\build\\DLPScanner\\PYZ-00.pyz',
- [('__future__',
+ [('PIL',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL.AvifImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\AvifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ExifTags',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ExifTags.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.ImageCms',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageCms.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.ImageFont',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageFont.py',
+   'PYMODULE'),
+  ('PIL.ImageMath',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageMath.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.ImageWin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImageWin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.QoiImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\QoiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('PIL._typing',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\_typing.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PyPDF2',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\__init__.py',
+   'PYMODULE'),
+  ('PyPDF2._cmap',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_cmap.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_codecs\\__init__.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs.adobe_glyphs',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_codecs\\adobe_glyphs.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs.pdfdoc',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_codecs\\pdfdoc.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs.std',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_codecs\\std.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs.symbol',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_codecs\\symbol.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs.zapfding',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_codecs\\zapfding.py',
+   'PYMODULE'),
+  ('PyPDF2._encryption',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_encryption.py',
+   'PYMODULE'),
+  ('PyPDF2._merger',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_merger.py',
+   'PYMODULE'),
+  ('PyPDF2._page',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_page.py',
+   'PYMODULE'),
+  ('PyPDF2._protocols',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_protocols.py',
+   'PYMODULE'),
+  ('PyPDF2._reader',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_reader.py',
+   'PYMODULE'),
+  ('PyPDF2._security',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_security.py',
+   'PYMODULE'),
+  ('PyPDF2._utils',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_utils.py',
+   'PYMODULE'),
+  ('PyPDF2._version',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_version.py',
+   'PYMODULE'),
+  ('PyPDF2._writer',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\_writer.py',
+   'PYMODULE'),
+  ('PyPDF2.constants',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\constants.py',
+   'PYMODULE'),
+  ('PyPDF2.errors',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\errors.py',
+   'PYMODULE'),
+  ('PyPDF2.filters',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\filters.py',
+   'PYMODULE'),
+  ('PyPDF2.generic',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\generic\\__init__.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._annotations',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\generic\\_annotations.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._base',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\generic\\_base.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._data_structures',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\generic\\_data_structures.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._fit',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\generic\\_fit.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._outline',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\generic\\_outline.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._rectangle',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\generic\\_rectangle.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._utils',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\generic\\_utils.py',
+   'PYMODULE'),
+  ('PyPDF2.pagerange',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\pagerange.py',
+   'PYMODULE'),
+  ('PyPDF2.papersizes',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\papersizes.py',
+   'PYMODULE'),
+  ('PyPDF2.types',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\types.py',
+   'PYMODULE'),
+  ('PyPDF2.xmp',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyPDF2\\xmp.py',
+   'PYMODULE'),
+  ('__future__',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\__future__.py',
    'PYMODULE'),
@@ -334,6 +770,10 @@
   ('colorama.winterm',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('colorsys',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\colorsys.py',
    'PYMODULE'),
   ('compression',
    'C:\\Users\\DELL '
@@ -979,6 +1419,18 @@
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\utils.py',
    'PYMODULE'),
+  ('et_xmlfile',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\et_xmlfile\\__init__.py',
+   'PYMODULE'),
+  ('et_xmlfile.incremental_tree',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\et_xmlfile\\incremental_tree.py',
+   'PYMODULE'),
+  ('et_xmlfile.xmlfile',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\et_xmlfile\\xmlfile.py',
+   'PYMODULE'),
   ('fnmatch',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\fnmatch.py',
@@ -1367,6 +1819,710 @@
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\opcode.py',
    'PYMODULE'),
+  ('openpyxl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl._constants',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\_constants.py',
+   'PYMODULE'),
+  ('openpyxl.cell',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\cell\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.cell._writer',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\cell\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.cell.cell',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\cell\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.cell.read_only',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\cell\\read_only.py',
+   'PYMODULE'),
+  ('openpyxl.cell.rich_text',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\cell\\rich_text.py',
+   'PYMODULE'),
+  ('openpyxl.cell.text',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\cell\\text.py',
+   'PYMODULE'),
+  ('openpyxl.chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chart._3d',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\_3d.py',
+   'PYMODULE'),
+  ('openpyxl.chart._chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.area_chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\area_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.axis',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\axis.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bar_chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\bar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bubble_chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\bubble_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.chartspace',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\chartspace.py',
+   'PYMODULE'),
+  ('openpyxl.chart.data_source',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\data_source.py',
+   'PYMODULE'),
+  ('openpyxl.chart.descriptors',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\descriptors.py',
+   'PYMODULE'),
+  ('openpyxl.chart.error_bar',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\error_bar.py',
+   'PYMODULE'),
+  ('openpyxl.chart.label',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\label.py',
+   'PYMODULE'),
+  ('openpyxl.chart.layout',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\layout.py',
+   'PYMODULE'),
+  ('openpyxl.chart.legend',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\legend.py',
+   'PYMODULE'),
+  ('openpyxl.chart.line_chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\line_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.marker',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\marker.py',
+   'PYMODULE'),
+  ('openpyxl.chart.picture',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pie_chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\pie_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pivot',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\pivot.py',
+   'PYMODULE'),
+  ('openpyxl.chart.plotarea',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\plotarea.py',
+   'PYMODULE'),
+  ('openpyxl.chart.print_settings',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\print_settings.py',
+   'PYMODULE'),
+  ('openpyxl.chart.radar_chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\radar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reader',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\reader.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reference',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\reference.py',
+   'PYMODULE'),
+  ('openpyxl.chart.scatter_chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\scatter_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\series.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series_factory',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\series_factory.py',
+   'PYMODULE'),
+  ('openpyxl.chart.shapes',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\shapes.py',
+   'PYMODULE'),
+  ('openpyxl.chart.stock_chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\stock_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.surface_chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\surface_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.text',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\text.py',
+   'PYMODULE'),
+  ('openpyxl.chart.title',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\title.py',
+   'PYMODULE'),
+  ('openpyxl.chart.trendline',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\trendline.py',
+   'PYMODULE'),
+  ('openpyxl.chart.updown_bars',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chart\\updown_bars.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chartsheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.chartsheet',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chartsheet\\chartsheet.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.custom',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chartsheet\\custom.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.properties',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chartsheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.protection',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chartsheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.publish',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chartsheet\\publish.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.relation',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chartsheet\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.views',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\chartsheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.comments',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\comments\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.comments.author',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\comments\\author.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comment_sheet',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\comments\\comment_sheet.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comments',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\comments\\comments.py',
+   'PYMODULE'),
+  ('openpyxl.comments.shape_writer',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\comments\\shape_writer.py',
+   'PYMODULE'),
+  ('openpyxl.compat',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\compat\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.compat.numbers',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\compat\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.compat.strings',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\compat\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\descriptors\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.base',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\descriptors\\base.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.container',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\descriptors\\container.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.excel',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\descriptors\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.namespace',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\descriptors\\namespace.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.nested',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\descriptors\\nested.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.sequence',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\descriptors\\sequence.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.serialisable',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\descriptors\\serialisable.py',
+   'PYMODULE'),
+  ('openpyxl.drawing',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.colors',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.connector',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\connector.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.drawing',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.effect',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\effect.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.fill',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\fill.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.geometry',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\geometry.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.graphic',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\graphic.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.image',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\image.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.line',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\line.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.picture',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.properties',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.relation',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.spreadsheet_drawing',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\spreadsheet_drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.text',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\text.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.xdr',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\drawing\\xdr.py',
+   'PYMODULE'),
+  ('openpyxl.formatting',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\formatting\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.formatting',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\formatting\\formatting.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.rule',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\formatting\\rule.py',
+   'PYMODULE'),
+  ('openpyxl.formula',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\formula\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formula.tokenizer',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\formula\\tokenizer.py',
+   'PYMODULE'),
+  ('openpyxl.formula.translate',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\formula\\translate.py',
+   'PYMODULE'),
+  ('openpyxl.packaging',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.core',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\packaging\\core.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.custom',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\packaging\\custom.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.extended',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\packaging\\extended.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.manifest',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\packaging\\manifest.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.relationship',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\packaging\\relationship.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.workbook',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\packaging\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.pivot',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\pivot\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.cache',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\pivot\\cache.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.fields',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\pivot\\fields.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.record',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\pivot\\record.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.table',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\pivot\\table.py',
+   'PYMODULE'),
+  ('openpyxl.reader',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\reader\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.reader.drawings',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\reader\\drawings.py',
+   'PYMODULE'),
+  ('openpyxl.reader.excel',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\reader\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.reader.strings',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\reader\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.reader.workbook',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\reader\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.styles',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.styles.alignment',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\alignment.py',
+   'PYMODULE'),
+  ('openpyxl.styles.borders',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\borders.py',
+   'PYMODULE'),
+  ('openpyxl.styles.builtins',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\builtins.py',
+   'PYMODULE'),
+  ('openpyxl.styles.cell_style',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\cell_style.py',
+   'PYMODULE'),
+  ('openpyxl.styles.colors',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.styles.differential',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\differential.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fills',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\fills.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fonts',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\fonts.py',
+   'PYMODULE'),
+  ('openpyxl.styles.named_styles',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\named_styles.py',
+   'PYMODULE'),
+  ('openpyxl.styles.numbers',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.styles.protection',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.styles.proxy',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\proxy.py',
+   'PYMODULE'),
+  ('openpyxl.styles.styleable',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\styleable.py',
+   'PYMODULE'),
+  ('openpyxl.styles.stylesheet',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\stylesheet.py',
+   'PYMODULE'),
+  ('openpyxl.styles.table',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\styles\\table.py',
+   'PYMODULE'),
+  ('openpyxl.utils',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\utils\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.utils.bound_dictionary',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\utils\\bound_dictionary.py',
+   'PYMODULE'),
+  ('openpyxl.utils.cell',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\utils\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.utils.datetime',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\utils\\datetime.py',
+   'PYMODULE'),
+  ('openpyxl.utils.escape',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\utils\\escape.py',
+   'PYMODULE'),
+  ('openpyxl.utils.exceptions',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\utils\\exceptions.py',
+   'PYMODULE'),
+  ('openpyxl.utils.formulas',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\utils\\formulas.py',
+   'PYMODULE'),
+  ('openpyxl.utils.indexed_list',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\utils\\indexed_list.py',
+   'PYMODULE'),
+  ('openpyxl.utils.protection',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\utils\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.utils.units',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\utils\\units.py',
+   'PYMODULE'),
+  ('openpyxl.workbook',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.workbook._writer',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.child',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\child.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.defined_name',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\defined_name.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\external_link\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link.external',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\external_link\\external.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_reference',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\external_reference.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.function_group',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\function_group.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.properties',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.protection',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.smart_tags',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\smart_tags.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.views',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\views.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.web',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\web.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.workbook',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\workbook\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._read_only',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\_read_only.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._reader',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\_reader.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._write_only',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\_write_only.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._writer',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.cell_range',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\cell_range.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.copier',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\copier.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.datavalidation',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\datavalidation.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.dimensions',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\dimensions.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.drawing',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.filters',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\filters.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.formula',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\formula.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.header_footer',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\header_footer.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.hyperlink',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\hyperlink.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.merge',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\merge.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.page',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\page.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.pagebreak',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\pagebreak.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.print_settings',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\print_settings.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.properties',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.protection',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.related',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\related.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.scenario',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\scenario.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.table',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\table.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.views',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.worksheet',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\worksheet\\worksheet.py',
+   'PYMODULE'),
+  ('openpyxl.writer',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\writer\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.writer.excel',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\writer\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.writer.theme',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\writer\\theme.py',
+   'PYMODULE'),
+  ('openpyxl.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\xml\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.xml.constants',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\xml\\constants.py',
+   'PYMODULE'),
+  ('openpyxl.xml.functions',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\openpyxl\\xml\\functions.py',
+   'PYMODULE'),
   ('optparse',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\optparse.py',
@@ -1398,6 +2554,410 @@
   ('pprint',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('pptx',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\__init__.py',
+   'PYMODULE'),
+  ('pptx.action',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\action.py',
+   'PYMODULE'),
+  ('pptx.api',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\api.py',
+   'PYMODULE'),
+  ('pptx.chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\__init__.py',
+   'PYMODULE'),
+  ('pptx.chart.axis',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\axis.py',
+   'PYMODULE'),
+  ('pptx.chart.category',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\category.py',
+   'PYMODULE'),
+  ('pptx.chart.chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\chart.py',
+   'PYMODULE'),
+  ('pptx.chart.data',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\data.py',
+   'PYMODULE'),
+  ('pptx.chart.datalabel',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\datalabel.py',
+   'PYMODULE'),
+  ('pptx.chart.legend',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\legend.py',
+   'PYMODULE'),
+  ('pptx.chart.marker',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\marker.py',
+   'PYMODULE'),
+  ('pptx.chart.plot',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\plot.py',
+   'PYMODULE'),
+  ('pptx.chart.point',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\point.py',
+   'PYMODULE'),
+  ('pptx.chart.series',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\series.py',
+   'PYMODULE'),
+  ('pptx.chart.xlsx',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\xlsx.py',
+   'PYMODULE'),
+  ('pptx.chart.xmlwriter',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\chart\\xmlwriter.py',
+   'PYMODULE'),
+  ('pptx.dml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\dml\\__init__.py',
+   'PYMODULE'),
+  ('pptx.dml.chtfmt',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\dml\\chtfmt.py',
+   'PYMODULE'),
+  ('pptx.dml.color',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\dml\\color.py',
+   'PYMODULE'),
+  ('pptx.dml.effect',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\dml\\effect.py',
+   'PYMODULE'),
+  ('pptx.dml.fill',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\dml\\fill.py',
+   'PYMODULE'),
+  ('pptx.dml.line',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\dml\\line.py',
+   'PYMODULE'),
+  ('pptx.enum',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\enum\\__init__.py',
+   'PYMODULE'),
+  ('pptx.enum.action',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\enum\\action.py',
+   'PYMODULE'),
+  ('pptx.enum.base',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\enum\\base.py',
+   'PYMODULE'),
+  ('pptx.enum.chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\enum\\chart.py',
+   'PYMODULE'),
+  ('pptx.enum.dml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\enum\\dml.py',
+   'PYMODULE'),
+  ('pptx.enum.lang',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\enum\\lang.py',
+   'PYMODULE'),
+  ('pptx.enum.shapes',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\enum\\shapes.py',
+   'PYMODULE'),
+  ('pptx.enum.text',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\enum\\text.py',
+   'PYMODULE'),
+  ('pptx.exc',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\exc.py',
+   'PYMODULE'),
+  ('pptx.media',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\media.py',
+   'PYMODULE'),
+  ('pptx.opc',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\opc\\__init__.py',
+   'PYMODULE'),
+  ('pptx.opc.constants',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\opc\\constants.py',
+   'PYMODULE'),
+  ('pptx.opc.oxml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\opc\\oxml.py',
+   'PYMODULE'),
+  ('pptx.opc.package',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\opc\\package.py',
+   'PYMODULE'),
+  ('pptx.opc.packuri',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\opc\\packuri.py',
+   'PYMODULE'),
+  ('pptx.opc.serialized',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\opc\\serialized.py',
+   'PYMODULE'),
+  ('pptx.opc.shared',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\opc\\shared.py',
+   'PYMODULE'),
+  ('pptx.opc.spec',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\opc\\spec.py',
+   'PYMODULE'),
+  ('pptx.oxml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\__init__.py',
+   'PYMODULE'),
+  ('pptx.oxml.action',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\action.py',
+   'PYMODULE'),
+  ('pptx.oxml.chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\chart\\__init__.py',
+   'PYMODULE'),
+  ('pptx.oxml.chart.axis',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\chart\\axis.py',
+   'PYMODULE'),
+  ('pptx.oxml.chart.chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\chart\\chart.py',
+   'PYMODULE'),
+  ('pptx.oxml.chart.datalabel',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\chart\\datalabel.py',
+   'PYMODULE'),
+  ('pptx.oxml.chart.legend',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\chart\\legend.py',
+   'PYMODULE'),
+  ('pptx.oxml.chart.marker',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\chart\\marker.py',
+   'PYMODULE'),
+  ('pptx.oxml.chart.plot',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\chart\\plot.py',
+   'PYMODULE'),
+  ('pptx.oxml.chart.series',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\chart\\series.py',
+   'PYMODULE'),
+  ('pptx.oxml.chart.shared',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\chart\\shared.py',
+   'PYMODULE'),
+  ('pptx.oxml.coreprops',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\coreprops.py',
+   'PYMODULE'),
+  ('pptx.oxml.dml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\dml\\__init__.py',
+   'PYMODULE'),
+  ('pptx.oxml.dml.color',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\dml\\color.py',
+   'PYMODULE'),
+  ('pptx.oxml.dml.fill',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\dml\\fill.py',
+   'PYMODULE'),
+  ('pptx.oxml.dml.line',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\dml\\line.py',
+   'PYMODULE'),
+  ('pptx.oxml.ns',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\ns.py',
+   'PYMODULE'),
+  ('pptx.oxml.presentation',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\presentation.py',
+   'PYMODULE'),
+  ('pptx.oxml.shapes',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\shapes\\__init__.py',
+   'PYMODULE'),
+  ('pptx.oxml.shapes.autoshape',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\shapes\\autoshape.py',
+   'PYMODULE'),
+  ('pptx.oxml.shapes.connector',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\shapes\\connector.py',
+   'PYMODULE'),
+  ('pptx.oxml.shapes.graphfrm',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\shapes\\graphfrm.py',
+   'PYMODULE'),
+  ('pptx.oxml.shapes.groupshape',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\shapes\\groupshape.py',
+   'PYMODULE'),
+  ('pptx.oxml.shapes.picture',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\shapes\\picture.py',
+   'PYMODULE'),
+  ('pptx.oxml.shapes.shared',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\shapes\\shared.py',
+   'PYMODULE'),
+  ('pptx.oxml.simpletypes',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\simpletypes.py',
+   'PYMODULE'),
+  ('pptx.oxml.slide',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\slide.py',
+   'PYMODULE'),
+  ('pptx.oxml.table',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\table.py',
+   'PYMODULE'),
+  ('pptx.oxml.text',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\text.py',
+   'PYMODULE'),
+  ('pptx.oxml.theme',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\theme.py',
+   'PYMODULE'),
+  ('pptx.oxml.xmlchemy',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\oxml\\xmlchemy.py',
+   'PYMODULE'),
+  ('pptx.package',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\package.py',
+   'PYMODULE'),
+  ('pptx.parts',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\parts\\__init__.py',
+   'PYMODULE'),
+  ('pptx.parts.chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\parts\\chart.py',
+   'PYMODULE'),
+  ('pptx.parts.coreprops',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\parts\\coreprops.py',
+   'PYMODULE'),
+  ('pptx.parts.embeddedpackage',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\parts\\embeddedpackage.py',
+   'PYMODULE'),
+  ('pptx.parts.image',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\parts\\image.py',
+   'PYMODULE'),
+  ('pptx.parts.media',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\parts\\media.py',
+   'PYMODULE'),
+  ('pptx.parts.presentation',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\parts\\presentation.py',
+   'PYMODULE'),
+  ('pptx.parts.slide',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\parts\\slide.py',
+   'PYMODULE'),
+  ('pptx.presentation',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\presentation.py',
+   'PYMODULE'),
+  ('pptx.shapes',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\shapes\\__init__.py',
+   'PYMODULE'),
+  ('pptx.shapes.autoshape',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\shapes\\autoshape.py',
+   'PYMODULE'),
+  ('pptx.shapes.base',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\shapes\\base.py',
+   'PYMODULE'),
+  ('pptx.shapes.connector',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\shapes\\connector.py',
+   'PYMODULE'),
+  ('pptx.shapes.freeform',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\shapes\\freeform.py',
+   'PYMODULE'),
+  ('pptx.shapes.graphfrm',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\shapes\\graphfrm.py',
+   'PYMODULE'),
+  ('pptx.shapes.group',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\shapes\\group.py',
+   'PYMODULE'),
+  ('pptx.shapes.picture',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\shapes\\picture.py',
+   'PYMODULE'),
+  ('pptx.shapes.placeholder',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\shapes\\placeholder.py',
+   'PYMODULE'),
+  ('pptx.shapes.shapetree',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\shapes\\shapetree.py',
+   'PYMODULE'),
+  ('pptx.shared',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\shared.py',
+   'PYMODULE'),
+  ('pptx.slide',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\slide.py',
+   'PYMODULE'),
+  ('pptx.spec',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\spec.py',
+   'PYMODULE'),
+  ('pptx.table',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\table.py',
+   'PYMODULE'),
+  ('pptx.text',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\text\\__init__.py',
+   'PYMODULE'),
+  ('pptx.text.fonts',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\text\\fonts.py',
+   'PYMODULE'),
+  ('pptx.text.layout',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\text\\layout.py',
+   'PYMODULE'),
+  ('pptx.text.text',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\text\\text.py',
+   'PYMODULE'),
+  ('pptx.types',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\types.py',
+   'PYMODULE'),
+  ('pptx.util',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\util.py',
    'PYMODULE'),
   ('py_compile',
    'C:\\Users\\DELL '
@@ -1603,9 +3163,229 @@
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\webbrowser.py',
    'PYMODULE'),
+  ('xlsxwriter',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\__init__.py',
+   'PYMODULE'),
+  ('xlsxwriter.app',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\app.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chart.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_area',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chart_area.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_bar',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chart_bar.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_column',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chart_column.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_doughnut',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chart_doughnut.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_line',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chart_line.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_pie',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chart_pie.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_radar',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chart_radar.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_scatter',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chart_scatter.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_stock',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chart_stock.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_title',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chart_title.py',
+   'PYMODULE'),
+  ('xlsxwriter.chartsheet',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\chartsheet.py',
+   'PYMODULE'),
+  ('xlsxwriter.color',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\color.py',
+   'PYMODULE'),
+  ('xlsxwriter.comments',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\comments.py',
+   'PYMODULE'),
+  ('xlsxwriter.contenttypes',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\contenttypes.py',
+   'PYMODULE'),
+  ('xlsxwriter.core',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\core.py',
+   'PYMODULE'),
+  ('xlsxwriter.custom',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\custom.py',
+   'PYMODULE'),
+  ('xlsxwriter.drawing',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\drawing.py',
+   'PYMODULE'),
+  ('xlsxwriter.exceptions',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\exceptions.py',
+   'PYMODULE'),
+  ('xlsxwriter.feature_property_bag',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\feature_property_bag.py',
+   'PYMODULE'),
+  ('xlsxwriter.format',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\format.py',
+   'PYMODULE'),
+  ('xlsxwriter.image',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\image.py',
+   'PYMODULE'),
+  ('xlsxwriter.metadata',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\metadata.py',
+   'PYMODULE'),
+  ('xlsxwriter.packager',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\packager.py',
+   'PYMODULE'),
+  ('xlsxwriter.relationships',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\relationships.py',
+   'PYMODULE'),
+  ('xlsxwriter.rich_value',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\rich_value.py',
+   'PYMODULE'),
+  ('xlsxwriter.rich_value_rel',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\rich_value_rel.py',
+   'PYMODULE'),
+  ('xlsxwriter.rich_value_structure',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\rich_value_structure.py',
+   'PYMODULE'),
+  ('xlsxwriter.rich_value_types',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\rich_value_types.py',
+   'PYMODULE'),
+  ('xlsxwriter.shape',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\shape.py',
+   'PYMODULE'),
+  ('xlsxwriter.sharedstrings',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\sharedstrings.py',
+   'PYMODULE'),
+  ('xlsxwriter.styles',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\styles.py',
+   'PYMODULE'),
+  ('xlsxwriter.table',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\table.py',
+   'PYMODULE'),
+  ('xlsxwriter.theme',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\theme.py',
+   'PYMODULE'),
+  ('xlsxwriter.url',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\url.py',
+   'PYMODULE'),
+  ('xlsxwriter.utility',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\utility.py',
+   'PYMODULE'),
+  ('xlsxwriter.vml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\vml.py',
+   'PYMODULE'),
+  ('xlsxwriter.workbook',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\workbook.py',
+   'PYMODULE'),
+  ('xlsxwriter.worksheet',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\worksheet.py',
+   'PYMODULE'),
+  ('xlsxwriter.xmlwriter',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\xlsxwriter\\xmlwriter.py',
+   'PYMODULE'),
   ('xml',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\etree\\cElementTree.py',
    'PYMODULE'),
   ('xml.parsers',
    'C:\\Users\\DELL '

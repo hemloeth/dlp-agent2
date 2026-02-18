@@ -13,7 +13,7 @@ DEFAULT_POLICY = {
         "excludedPaths": ["/proc", "/sys", "/dev", "/node_modules", "/.git"]
     }
 }
-
+ 
 def load_policy(policy_path: str) -> dict:
     """Load policy from JSON file or return default if not found."""
     if os.path.exists(policy_path):
