@@ -1,6 +1,9 @@
 import logging
 import os
 import docx
+import PyPDF2
+import openpyxl
+from pptx import Presentation
 from dlp_agent.detectors import detect_credit_cards, detect_aadhaar, detect_pan
 from dlp_agent.events.sinks import EventSink
 
@@ -36,6 +39,40 @@ class StreamProcessor:
                     yield i, para.text
             except Exception as e:
                 logging.error(f"Error reading docx {file_path}: {e}")
+        elif ext == '.pdf':
+            try:
+                with open(file_path, 'rb') as f:
+                    reader = PyPDF2.PdfReader(f)
+                    for i, page in enumerate(reader.pages, 1):
+                        text = page.extract_text()
+                        if text:
+                            for line_num, line in enumerate(text.splitlines(), 1):
+                                # Compounding page and line number for unique tracking
+                                yield f"p{i}:l{line_num}", line
+            except Exception as e:
+                logging.error(f"Error reading pdf {file_path}: {e}")
+        elif ext == '.xlsx':
+            try:
+                wb = openpyxl.load_workbook(file_path, read_only=True, data_only=True)
+                try:
+                    for sheet in wb.worksheets:
+                        for row_num, row in enumerate(sheet.iter_rows(values_only=True), 1):
+                            content = " ".join([str(cell) for cell in row if cell is not None])
+                            if content:
+                                yield f"{sheet.title}:r{row_num}", content
+                finally:
+                    wb.close()
+            except Exception as e:
+                logging.error(f"Error reading xlsx {file_path}: {e}")
+        elif ext == '.pptx':
+            try:
+                prs = Presentation(file_path)
+                for i, slide in enumerate(prs.slides, 1):
+                    for shape_num, shape in enumerate(slide.shapes, 1):
+                        if hasattr(shape, "text"):
+                            yield f"s{i}:sh{shape_num}", shape.text
+            except Exception as e:
+                logging.error(f"Error reading pptx {file_path}: {e}")
         elif ext == '.doc':
             logging.warning(f"File {file_path} is in .doc format. Only .docx is currently supported for Word documents.")
         else:
