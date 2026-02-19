@@ -1,0 +1,500 @@
+('C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\build\\DLPScanner\\DLPScanner.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\build\\DLPScanner\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\build\\DLPScanner\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\build\\DLPScanner\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\build\\DLPScanner\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\build\\DLPScanner\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\build\\DLPScanner\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('entry_point',
+   'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\entry_point.py',
+   'PYSOURCE'),
+  ('python314.dll',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\python314.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_zstd.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_zstd.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('lxml\\sax.cp314-win_amd64.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\sax.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\objectify.cp314-win_amd64.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\objectify.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\html\\diff.cp314-win_amd64.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\html\\diff.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\html\\_difflib.cp314-win_amd64.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\html\\_difflib.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('lxml\\builder.cp314-win_amd64.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\builder.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\_elementpath.cp314-win_amd64.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\_elementpath.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\etree.cp314-win_amd64.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\etree.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('dlp_agent\\__init__.py',
+   'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\dlp_agent\\__init__.py',
+   'DATA'),
+  ('dlp_agent\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\__pycache__\\__init__.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\__pycache__\\__init__.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\__pycache__\\config.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\__pycache__\\config.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\__pycache__\\config.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\__pycache__\\config.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\__pycache__\\main.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\__pycache__\\main.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\__pycache__\\main.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\__pycache__\\main.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\config.py',
+   'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\dlp_agent\\config.py',
+   'DATA'),
+  ('dlp_agent\\detectors\\__init__.py',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\__init__.py',
+   'DATA'),
+  ('dlp_agent\\detectors\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\detectors\\__pycache__\\__init__.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\__pycache__\\__init__.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\detectors\\__pycache__\\aadhaar.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\__pycache__\\aadhaar.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\detectors\\__pycache__\\aadhaar.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\__pycache__\\aadhaar.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\detectors\\__pycache__\\credit_card.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\__pycache__\\credit_card.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\detectors\\__pycache__\\credit_card.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\__pycache__\\credit_card.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\detectors\\__pycache__\\pan.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\__pycache__\\pan.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\detectors\\__pycache__\\pan.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\__pycache__\\pan.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\detectors\\aadhaar.py',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\aadhaar.py',
+   'DATA'),
+  ('dlp_agent\\detectors\\credit_card.py',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\credit_card.py',
+   'DATA'),
+  ('dlp_agent\\detectors\\pan.py',
+   'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\dlp_agent\\detectors\\pan.py',
+   'DATA'),
+  ('dlp_agent\\events\\__init__.py',
+   'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\dlp_agent\\events\\__init__.py',
+   'DATA'),
+  ('dlp_agent\\events\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\events\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\events\\__pycache__\\__init__.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\events\\__pycache__\\__init__.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\events\\__pycache__\\model.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\events\\__pycache__\\model.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\events\\__pycache__\\model.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\events\\__pycache__\\model.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\events\\__pycache__\\sinks.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\events\\__pycache__\\sinks.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\events\\__pycache__\\sinks.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\events\\__pycache__\\sinks.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\events\\model.py',
+   'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\dlp_agent\\events\\model.py',
+   'DATA'),
+  ('dlp_agent\\events\\sinks.py',
+   'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\dlp_agent\\events\\sinks.py',
+   'DATA'),
+  ('dlp_agent\\main.py',
+   'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\dlp_agent\\main.py',
+   'DATA'),
+  ('dlp_agent\\scanner\\__init__.py',
+   'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\dlp_agent\\scanner\\__init__.py',
+   'DATA'),
+  ('dlp_agent\\scanner\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\scanner\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\scanner\\__pycache__\\__init__.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\scanner\\__pycache__\\__init__.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\scanner\\__pycache__\\file_walker.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\scanner\\__pycache__\\file_walker.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\scanner\\__pycache__\\file_walker.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\scanner\\__pycache__\\file_walker.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\scanner\\__pycache__\\stream_processor.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\scanner\\__pycache__\\stream_processor.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\scanner\\__pycache__\\stream_processor.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\scanner\\__pycache__\\stream_processor.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\scanner\\file_walker.py',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\scanner\\file_walker.py',
+   'DATA'),
+  ('dlp_agent\\scanner\\stream_processor.py',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\scanner\\stream_processor.py',
+   'DATA'),
+  ('dlp_agent\\utils\\__pycache__\\checksums.cpython-313.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\utils\\__pycache__\\checksums.cpython-313.pyc',
+   'DATA'),
+  ('dlp_agent\\utils\\__pycache__\\checksums.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\utils\\__pycache__\\checksums.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\utils\\checksums.py',
+   'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\dlp_agent\\utils\\checksums.py',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\stylesWithEffects.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\stylesWithEffects.xml',
+   'DATA'),
+  ('docx\\templates\\default-styles.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-styles.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\settings.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\settings.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\document.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\document.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\customXml\\item1.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\customXml\\item1.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\_rels\\.rels',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\_rels\\.rels',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\customXml\\_rels\\item1.xml.rels',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\customXml\\_rels\\item1.xml.rels',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\webSettings.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\webSettings.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\_rels\\document.xml.rels',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\_rels\\document.xml.rels',
+   'DATA'),
+  ('docx\\templates\\default-settings.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-settings.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\docProps\\core.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\docProps\\core.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\styles.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\styles.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\customXml\\itemProps1.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\customXml\\itemProps1.xml',
+   'DATA'),
+  ('docx\\templates\\default-header.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-header.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\docProps\\app.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\docProps\\app.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\[Content_Types].xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\[Content_Types].xml',
+   'DATA'),
+  ('docx\\templates\\default-footer.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-footer.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\theme\\theme1.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\theme\\theme1.xml',
+   'DATA'),
+  ('docx\\py.typed',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\py.typed',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\numbering.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\numbering.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\fontTable.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\fontTable.xml',
+   'DATA'),
+  ('docx\\templates\\default.docx',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default.docx',
+   'DATA'),
+  ('docx\\templates\\default-comments.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-comments.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\docProps\\thumbnail.jpeg',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\docProps\\thumbnail.jpeg',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\readme.txt',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\readme.txt',
+   'DATA'),
+  ('click-8.3.1.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('click-8.3.1.dist-info\\WHEEL',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\WHEEL',
+   'DATA'),
+  ('click-8.3.1.dist-info\\INSTALLER',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('click-8.3.1.dist-info\\RECORD',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\RECORD',
+   'DATA'),
+  ('click-8.3.1.dist-info\\METADATA',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\METADATA',
+   'DATA'),
+  ('click-8.3.1.dist-info\\REQUESTED',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\build\\DLPScanner\\base_library.zip',
+   'DATA')],
+ 'python314.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
