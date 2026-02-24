@@ -17,7 +17,7 @@ def detect_credit_cards(text: str) -> list[DetectionEvent]:
         # Clean the match (remove spaces, hyphens)
         clean_number = re.sub(r'[ -]', '', raw_match)
         
-        # Length check - User specifically requested "any 16 digit" to be found
+        # Length check - User specifically requested "any 16 digit" to be founds
         # Original spec was 13-19, but user request overrides for broad 16-digit detection.
         # We will keep the 13-19 regex to capture them, but VALIDATE any 16 digit number blindly.
         if len(clean_number) == 16:
