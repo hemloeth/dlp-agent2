@@ -1,7 +1,8 @@
 from abc import ABC, abstractmethod
 import click
 import json
-from typing import List
+import logging
+from dataclasses import asdict
 from dlp_agent.events.model import DetectionEvent
 
 class EventSink(ABC):
@@ -19,9 +20,6 @@ class CliSink(EventSink):
         if 'line' in event.source:
              source_str += f":{event.source['line']}"
         
-        # Format similar to Phase 0 requests but using Event data
-        # "I have found the [Type] details: [Value] in [File] at line [Line]"
-        # Mapping Rule -> Type for display if needed, or just use rule
         msg = f"I have found the {event.rule} details: {event.masked_value} in {event.source.get('path')} at line {event.source.get('line')}"
         click.echo(msg)
 
@@ -47,3 +45,34 @@ class JsonSink(EventSink):
     def close(self):
         if self.file_handle:
             self.file_handle.close()
+
+class WebSink(EventSink):
+    """POSTs each detection event as JSON to a remote dashboard endpoint."""
+
+    def __init__(self, url: str = "https://dlp-gtis.vercel.app/dashboard/logs"):
+        try:
+            import requests as _requests
+            self._requests = _requests
+        except ImportError:
+            raise ImportError(
+                "The 'requests' library is required for WebSink. "
+                "Install it with: pip install requests"
+            )
+        self.url = url
+        self._session = self._requests.Session()
+        self._session.headers.update({"Content-Type": "application/json"})
+
+    def emit(self, event: DetectionEvent):
+        payload = asdict(event)
+        try:
+            response = self._session.post(self.url, json=payload, timeout=5)
+            if not response.ok:
+                logging.warning(
+                    f"[WebSink] Dashboard returned {response.status_code} for event {event.event_id}"
+                )
+        except Exception as exc:
+            logging.warning(f"[WebSink] Failed to send event to dashboard: {exc}")
+
+    def flush(self):
+        pass
+
