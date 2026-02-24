@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Large result files
+*_results.txt
+*_results.json
+full_scan_results.txt
+desktop_scan_results.json
+run_results.json
