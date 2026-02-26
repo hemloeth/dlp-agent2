@@ -49,7 +49,7 @@ class JsonSink(EventSink):
 class WebSink(EventSink):
     """POSTs each detection event as JSON to a remote dashboard endpoint."""
 
-    def __init__(self, url: str = "https://dlp-gtis.vercel.app/dashboard/logs"):
+    def __init__(self, url: str = "https://dlp.gtis.ai/dashboard/logs"):
         try:
             import requests as _requests
             self._requests = _requests

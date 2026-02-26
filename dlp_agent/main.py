@@ -10,7 +10,7 @@ from dlp_agent.config import load_policy
 @click.option('--debug', is_flag=True, help='Enable debug logging')
 @click.option('--json-out', help='Path to output JSON logs', required=False)
 @click.option('--web', is_flag=True, help='Send logs to the dashboard page in real time')
-@click.option('--web-url', default='https://dlp-gtis.vercel.app/dashboard/logs', show_default=True,
+@click.option('--web-url', default='https://dlp.gtis.ai/dashboard/logs', show_default=True,
               help='Dashboard endpoint URL to POST logs to (used with --web)')
 def main(scan_dir, policy, debug, json_out, web, web_url):
     """DLP Agent - Detect Sensitive Data."""
