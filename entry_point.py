@@ -1,5 +1,14 @@
 import sys
 import os
+import traceback
+import datetime
+
+def global_exception_handler(exctype, value, tb):
+    with open("dlp_agent_crash.log", "a") as f:
+        f.write(f"--- Crash on {datetime.datetime.now()} ---\n")
+        traceback.print_exception(exctype, value, tb, file=f)
+    
+sys.excepthook = global_exception_handler
 
 # Ensure the root directory is in sys.path
 current_dir = os.path.dirname(os.path.abspath(__file__))
