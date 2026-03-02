@@ -12,7 +12,7 @@ class FileWalker:
         """
         Generator that yields valid file paths to scan.
         """
-        for root, dirs, files in os.walk(root_dir):
+        for root, dirs, files in os.walk(root_dir, onerror=lambda err: None):
             # Modify dirs in-place to skip excluded directories
             # We must use a copy of dirs to iterate safely while modifying
             dirs[:] = [d for d in dirs if not self._is_excluded(os.path.join(root, d))]

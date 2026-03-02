@@ -48,6 +48,10 @@
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
   ('entry_point',
    'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\entry_point.py',
    'PYSOURCE'),
@@ -55,17 +59,9 @@
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\python314.dll',
    'BINARY'),
-  ('select.pyd',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\select.pyd',
-   'EXTENSION'),
   ('_decimal.pyd',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_decimal.pyd',
-   'EXTENSION'),
-  ('_socket.pyd',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_socket.pyd',
    'EXTENSION'),
   ('_hashlib.pyd',
    'C:\\Users\\DELL '
@@ -74,6 +70,14 @@
   ('_ssl.pyd',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_socket.pyd',
    'EXTENSION'),
   ('unicodedata.pyd',
    'C:\\Users\\DELL '
@@ -91,6 +95,22 @@
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_bz2.pyd',
    'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
   ('_multiprocessing.pyd',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_multiprocessing.pyd',
@@ -99,29 +119,21 @@
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\pyexpat.pyd',
    'EXTENSION'),
-  ('_ctypes.pyd',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_ctypes.pyd',
-   'EXTENSION'),
-  ('_queue.pyd',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_queue.pyd',
-   'EXTENSION'),
-  ('_uuid.pyd',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_uuid.pyd',
-   'EXTENSION'),
   ('_wmi.pyd',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_wmi.pyd',
    'EXTENSION'),
-  ('_overlapped.pyd',
+  ('charset_normalizer\\md__mypyc.cp314-win_amd64.pyd',
    'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_overlapped.pyd',
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp314-win_amd64.pyd',
    'EXTENSION'),
-  ('_asyncio.pyd',
+  ('charset_normalizer\\md.cp314-win_amd64.pyd',
    'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_asyncio.pyd',
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\charset_normalizer\\md.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_uuid.pyd',
    'EXTENSION'),
   ('lxml\\etree.cp314-win_amd64.pyd',
    'C:\\Users\\DELL '
@@ -229,6 +241,10 @@
   ('dlp_agent\\__pycache__\\main.cpython-314.pyc',
    'C:\\Users\\DELL '
    '5310\\Desktop\\dlp-agent2\\dlp_agent\\__pycache__\\main.cpython-314.pyc',
+   'DATA'),
+  ('dlp_agent\\__pycache__\\web_server.cpython-314.pyc',
+   'C:\\Users\\DELL '
+   '5310\\Desktop\\dlp-agent2\\dlp_agent\\__pycache__\\web_server.cpython-314.pyc',
    'DATA'),
   ('dlp_agent\\config.py',
    'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\dlp_agent\\config.py',
@@ -362,13 +378,58 @@
   ('dlp_agent\\utils\\checksums.py',
    'C:\\Users\\DELL 5310\\Desktop\\dlp-agent2\\dlp_agent\\utils\\checksums.py',
    'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('pptx\\templates\\theme.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\templates\\theme.xml',
+   'DATA'),
+  ('pptx\\templates\\generic-icon.emf',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\templates\\generic-icon.emf',
+   'DATA'),
   ('pptx\\templates\\xlsx-icon.emf',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\templates\\xlsx-icon.emf',
-   'DATA'),
-  ('pptx\\templates\\docx-icon.emf',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\templates\\docx-icon.emf',
    'DATA'),
   ('pptx\\templates\\default.pptx',
    'C:\\Users\\DELL '
@@ -382,41 +443,13 @@
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\templates\\pptx-icon.emf',
    'DATA'),
-  ('pptx\\templates\\theme.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\templates\\theme.xml',
-   'DATA'),
-  ('pptx\\templates\\generic-icon.emf',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\templates\\generic-icon.emf',
-   'DATA'),
   ('pptx\\templates\\notes.xml',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\templates\\notes.xml',
    'DATA'),
-  ('lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
+  ('pptx\\templates\\docx-icon.emf',
    'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
-   'DATA'),
-  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
-   'DATA'),
-  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
-   'DATA'),
-  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
-   'DATA'),
-  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
-   'DATA'),
-  ('lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pptx\\templates\\docx-icon.emf',
    'DATA'),
   ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\readme.txt',
    'C:\\Users\\DELL '
@@ -426,125 +459,149 @@
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
    'DATA'),
+  ('lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'DATA'),
   ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
    'DATA'),
-  ('docx\\templates\\default-docx-template\\_rels\\.rels',
+  ('lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
    'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\_rels\\.rels',
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
    'DATA'),
   ('docx\\templates\\default-header.xml',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-header.xml',
    'DATA'),
-  ('docx\\templates\\default-docx-template\\docProps\\core.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\docProps\\core.xml',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\word\\stylesWithEffects.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\stylesWithEffects.xml',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\word\\settings.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\settings.xml',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\docProps\\thumbnail.jpeg',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\docProps\\thumbnail.jpeg',
-   'DATA'),
   ('docx\\templates\\default-settings.xml',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-settings.xml',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\word\\theme\\theme1.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\theme\\theme1.xml',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\word\\styles.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\styles.xml',
-   'DATA'),
-  ('docx\\templates\\default.docx',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default.docx',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\[Content_Types].xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\[Content_Types].xml',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\customXml\\item1.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\customXml\\item1.xml',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\word\\_rels\\document.xml.rels',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\_rels\\document.xml.rels',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\word\\webSettings.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\webSettings.xml',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\customXml\\_rels\\item1.xml.rels',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\customXml\\_rels\\item1.xml.rels',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\word\\document.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\document.xml',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\word\\fontTable.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\fontTable.xml',
    'DATA'),
   ('docx\\templates\\default-docx-template\\docProps\\app.xml',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\docProps\\app.xml',
    'DATA'),
-  ('docx\\py.typed',
+  ('docx\\templates\\default-styles.xml',
    'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\py.typed',
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-styles.xml',
    'DATA'),
-  ('docx\\templates\\default-footer.xml',
+  ('docx\\templates\\default-docx-template\\_rels\\.rels',
    'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-footer.xml',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\word\\numbering.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\numbering.xml',
-   'DATA'),
-  ('docx\\templates\\default-docx-template\\customXml\\itemProps1.xml',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\customXml\\itemProps1.xml',
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\_rels\\.rels',
    'DATA'),
   ('docx\\templates\\default-comments.xml',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-comments.xml',
    'DATA'),
-  ('docx\\templates\\default-styles.xml',
+  ('docx\\py.typed',
    'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-styles.xml',
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\py.typed',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\customXml\\_rels\\item1.xml.rels',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\customXml\\_rels\\item1.xml.rels',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\customXml\\itemProps1.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\customXml\\itemProps1.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\webSettings.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\webSettings.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\document.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\document.xml',
+   'DATA'),
+  ('docx\\templates\\default.docx',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default.docx',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\customXml\\item1.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\customXml\\item1.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\stylesWithEffects.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\stylesWithEffects.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\fontTable.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\fontTable.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\settings.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\settings.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\_rels\\document.xml.rels',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\_rels\\document.xml.rels',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\docProps\\core.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\docProps\\core.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\docProps\\thumbnail.jpeg',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\docProps\\thumbnail.jpeg',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\styles.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\styles.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\[Content_Types].xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\[Content_Types].xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\numbering.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\numbering.xml',
+   'DATA'),
+  ('docx\\templates\\default-docx-template\\word\\theme\\theme1.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-docx-template\\word\\theme\\theme1.xml',
+   'DATA'),
+  ('docx\\templates\\default-footer.xml',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\docx\\templates\\default-footer.xml',
    'DATA'),
   ('click-8.3.1.dist-info\\WHEEL',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\WHEEL',
    'DATA'),
-  ('click-8.3.1.dist-info\\REQUESTED',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\REQUESTED',
-   'DATA'),
-  ('click-8.3.1.dist-info\\RECORD',
-   'C:\\Users\\DELL '
-   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\RECORD',
-   'DATA'),
   ('click-8.3.1.dist-info\\licenses\\LICENSE.txt',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\licenses\\LICENSE.txt',
    'DATA'),
+  ('click-8.3.1.dist-info\\REQUESTED',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\REQUESTED',
+   'DATA'),
   ('click-8.3.1.dist-info\\METADATA',
    'C:\\Users\\DELL '
    '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\METADATA',
+   'DATA'),
+  ('click-8.3.1.dist-info\\RECORD',
+   'C:\\Users\\DELL '
+   '5310\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\click-8.3.1.dist-info\\RECORD',
    'DATA'),
   ('click-8.3.1.dist-info\\INSTALLER',
    'C:\\Users\\DELL '
