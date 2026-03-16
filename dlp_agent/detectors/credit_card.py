@@ -1,9 +1,21 @@
 import re
+import urllib.request
+import urllib.error
 from dlp_agent.utils.checksums import luhn_check
 from dlp_agent.events.model import DetectionEvent
 
 # Regex for finding potential card numbers (13-19 digits, allowing spaces/hyphens)
 CC_PATTERN = re.compile(r'\b(?:\d[ -]*?){13,19}\b')
+
+def check_bin_exists(bin_number: str) -> bool:
+    """Checks if a 6-digit BIN exists via the specified API."""
+    url = f"http://localhost:5000/api/bins/{bin_number}"
+    try:
+        req = urllib.request.Request(url, method="GET")
+        with urllib.request.urlopen(req, timeout=5) as response:
+            return response.status == 200
+    except Exception:
+        return False
 
 def detect_credit_cards(text: str) -> list[DetectionEvent]:
     """
@@ -17,6 +29,12 @@ def detect_credit_cards(text: str) -> list[DetectionEvent]:
         # Clean the match (remove spaces, hyphens)
         clean_number = re.sub(r'[ -]', '', raw_match)
         
+        # Check BIN first (first 6 digits)
+        if len(clean_number) >= 6:
+            bin_number = clean_number[:6]
+            if not check_bin_exists(bin_number):
+                continue
+                
         # Length check - User specifically requested "any 16 digit" to be founds
         # Original spec was 13-19, but user request overrides for broad 16-digit detection.
         # We will keep the 13-19 regex to capture them, but VALIDATE any 16 digit number blindly.
