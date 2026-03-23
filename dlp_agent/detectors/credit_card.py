@@ -9,7 +9,7 @@ CC_PATTERN = re.compile(r'\b(?:\d[ -]*?){13,19}\b')
 
 def check_bin_exists(bin_number: str) -> bool:
     """Checks if a 6-digit BIN exists via the specified API."""
-    url = f"http://localhost:5000/api/bins/{bin_number}"
+    url = f"https://binapi-chty.onrender.com/api/bins/{bin_number}"
     try:
         req = urllib.request.Request(url, method="GET")
         with urllib.request.urlopen(req, timeout=5) as response:
