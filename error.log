@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Users\DELL 5310\Desktop\dlp-agent2\test_ocr.py", line 27, in <module>
+    from dlp_agent.scanner.stream_processor import StreamProcessor
+  File "C:\Users\DELL 5310\Desktop\dlp-agent2\dlp_agent\scanner\__init__.py", line 2, in <module>
+    from .stream_processor import StreamProcessor
+  File "C:\Users\DELL 5310\Desktop\dlp-agent2\dlp_agent\scanner\stream_processor.py", line 9, in <module>
+    from dlp_agent.utils.ocr_extractor import OCRExtractor
+  File "C:\Users\DELL 5310\Desktop\dlp-agent2\dlp_agent\utils\ocr_extractor.py", line 5, in <module>
+    import easyocr
+  File "C:\Users\DELL 5310\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\easyocr\__init__.py", line 1, in <module>
+    from .easyocr import Reader
+  File "C:\Users\DELL 5310\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\easyocr\easyocr.py", line 3, in <module>
+    from .recognition import get_recognizer, get_text
+  File "C:\Users\DELL 5310\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\easyocr\recognition.py", line 2, in <module>
+    import torch
+  File "C:\Users\DELL 5310\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\__init__.py", line 280, in <module>
+    _load_dll_libraries()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL 5310\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\__init__.py", line 263, in _load_dll_libraries
+    raise err
+OSError: [WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "C:\Users\DELL 5310\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.

@@ -2,6 +2,15 @@ import click
 import sys
 import json
 import os
+import warnings
+import logging
+
+# Suppress annoying library warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="torch.utils.data.dataloader")
+warnings.filterwarnings("ignore", category=UserWarning, module="PIL.Image")
+warnings.filterwarnings("ignore", message="urllib3.*doesn't match a supported version")
+logging.getLogger("easyocr.easyocr").setLevel(logging.ERROR)
+
 from dlp_agent.config import load_policy
 
 @click.command()
@@ -44,14 +53,22 @@ def main(scan_dir, policy, debug, json_out, web, web_url):
         scanned_files = 0
         total_findings = 0
         
-        for file_path in walker.walk(os.path.abspath(scan_dir)):
-            if debug:
-                click.echo(f"Scanning file: {file_path}")
-            scanned_files += 1
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+        
+        with ThreadPoolExecutor(max_workers=os.cpu_count() or 4) as executor:
+            future_to_file = {executor.submit(processor.process_file, f): f for f in walker.walk(os.path.abspath(scan_dir))}
             
-            # Processor now handles emission to sinks
-            findings_count = processor.process_file(file_path)
-            total_findings += findings_count
+            for future in as_completed(future_to_file):
+                file_path = future_to_file[future]
+                try:
+                    if debug:
+                        click.echo(f"Scanning file: {file_path}")
+                    findings_count = future.result()
+                    total_findings += findings_count
+                    scanned_files += 1
+                except Exception as exc:
+                    click.echo(f"Error processing {file_path}: {exc}", err=True)
+
                     
         click.echo(f"\nScan Complete. Scanned {scanned_files} files. Found {total_findings} issues.", err=True)
         

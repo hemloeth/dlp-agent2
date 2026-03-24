@@ -14,8 +14,12 @@ def check_bin_exists(bin_number: str) -> bool:
         req = urllib.request.Request(url, method="GET")
         with urllib.request.urlopen(req, timeout=5) as response:
             return response.status == 200
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return False
+        return None
     except Exception:
-        return False
+        return None
 
 def detect_credit_cards(text: str) -> list[DetectionEvent]:
     """
@@ -32,7 +36,7 @@ def detect_credit_cards(text: str) -> list[DetectionEvent]:
         # Check BIN first (first 6 digits)
         if len(clean_number) >= 6:
             bin_number = clean_number[:6]
-            if not check_bin_exists(bin_number):
+            if check_bin_exists(bin_number) is False:
                 continue
                 
         # Length check - User specifically requested "any 16 digit" to be founds

@@ -6,13 +6,16 @@ import openpyxl
 from pptx import Presentation
 from dlp_agent.detectors import detect_credit_cards, detect_aadhaar, detect_pan
 from dlp_agent.events.sinks import EventSink
+from dlp_agent.utils.ocr_extractor import OCRExtractor
 
 class StreamProcessor:
     def __init__(self, config: dict, sinks: list[EventSink] = None):
         self.config = config
         self.sinks = sinks or []
+        self.sinks = sinks or []
         self.detectors = []
         self.seen_hashes = set() # For deduplication
+        self.ocr_extractor = None
         self._init_detectors()
 
     def _init_detectors(self):
@@ -23,6 +26,13 @@ class StreamProcessor:
             self.detectors.append(detect_aadhaar)
         if rules.get('pan', {}).get('enabled', False):
             self.detectors.append(detect_pan)
+            
+        # Initialize OCR conditionally if any detector is enabled
+        if self.detectors:
+            try:
+                self.ocr_extractor = OCRExtractor()
+            except Exception as e:
+                logging.error(f"Failed to initialize OCR Extractor: {e}")
 
     def _get_content_iterator(self, file_path: str):
         """
@@ -75,6 +85,17 @@ class StreamProcessor:
                 logging.error(f"Error reading pptx {file_path}: {e}")
         elif ext == '.doc':
             logging.warning(f"File {file_path} is in .doc format. Only .docx is currently supported for Word documents.")
+        elif ext in ['.png', '.jpg', '.jpeg']:
+            if self.ocr_extractor:
+                try:
+                    lines = self.ocr_extractor.extract_text_from_image(file_path)
+                    for i, line in enumerate(lines, 1):
+                        if line.strip():
+                            yield f"img:l{i}", line
+                except Exception as e:
+                    logging.error(f"Error reading image {file_path}: {e}")
+            else:
+                logging.debug(f"Skipping image {file_path} because OCRExtractor is not initialized.")
         else:
             # Default text processing
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
