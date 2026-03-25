@@ -49,7 +49,7 @@ class JsonSink(EventSink):
 class WebSink(EventSink):
     """POSTs each detection event as JSON to a remote dashboard endpoint."""
 
-    def __init__(self, url: str = "https://dlp.gtis.ai/dashboard/logs"):
+    def __init__(self, url: str = "http://localhost:3000/dashboard/logs"):
         try:
             import requests as _requests
             self._requests = _requests
@@ -61,6 +61,18 @@ class WebSink(EventSink):
         self.url = url
         self._session = self._requests.Session()
         self._session.headers.update({"Content-Type": "application/json"})
+
+    def send_device_info(self, device_info: dict, device_url: str = None):
+        """POST device metadata to the dashboard (called once at scan start)."""
+        target = device_url or self.url.replace("/logs", "/device")
+        try:
+            response = self._session.post(target, json=device_info, timeout=5)
+            if not response.ok:
+                logging.warning(f"[WebSink] Device info POST returned {response.status_code}")
+            else:
+                logging.info(f"[WebSink] Device info sent to {target}")
+        except Exception as exc:
+            logging.warning(f"[WebSink] Failed to send device info: {exc}")
 
     def emit(self, event: DetectionEvent):
         payload = asdict(event)
