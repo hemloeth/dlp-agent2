@@ -1,12 +1,31 @@
 # -*- mode: python ; coding: utf-8 -*-
 
-
 a = Analysis(
     ['entry_point.py'],
     pathex=[],
     binaries=[],
     datas=[('dlp_agent', 'dlp_agent')],
-    hiddenimports=[],
+    hiddenimports=[
+        'easyocr',
+        'easyocr.easyocr',
+        'torch',
+        'torchvision',
+        'PIL',
+        'PIL.Image',
+        'cv2',
+        'numpy',
+        'scipy',
+        'skimage',
+        'yaml',
+        'requests',
+        'urllib3',
+        'charset_normalizer',
+        'docx',
+        'PyPDF2',
+        'openpyxl',
+        'pptx',
+        'click',
+    ],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
