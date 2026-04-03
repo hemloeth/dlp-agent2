@@ -9,10 +9,10 @@ from dlp_agent.events.sinks import EventSink
 from dlp_agent.utils.ocr_extractor import OCRExtractor
 
 class StreamProcessor:
-    def __init__(self, config: dict, sinks: list[EventSink] = None):
+    def __init__(self, config: dict, sinks: list[EventSink] = None, agent_id: str = "node-001"):
         self.config = config
         self.sinks = sinks or []
-        self.sinks = sinks or []
+        self.agent_id = agent_id
         self.detectors = []
         self.seen_hashes = set() # For deduplication
         self.ocr_extractor = None
@@ -123,6 +123,7 @@ class StreamProcessor:
                             "path": file_path,
                             "line": line_num
                         }
+                        event.agent_id = self.agent_id
                         
                         # Deduplication check
                         # Key: hash + rule + file + line

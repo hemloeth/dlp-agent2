@@ -1,13 +1,14 @@
 import socket
 import uuid
 import platform
-
+import os
+import getpass
 
 def get_device_info() -> dict:
-    """Collect basic device metadata for the current machine."""
-    device_name = socket.gethostname()
+    """Collect comprehensive device metadata that matches the dashboard schema."""
+    hostname = socket.gethostname()
     try:
-        ip_address = socket.gethostbyname(device_name)
+        ip_address = socket.gethostbyname(hostname)
     except socket.gaierror:
         ip_address = "127.0.0.1"
 
@@ -15,10 +16,14 @@ def get_device_info() -> dict:
     mac_address = ':'.join(('%012X' % mac)[i:i+2] for i in range(0, 12, 2))
 
     return {
-        "device_name": device_name,
+        "agent_id": mac_address,         # Using MAC as the unique device ID
+        "device_name": hostname,
+        "hostname": hostname,
         "ip_address": ip_address,
         "mac_address": mac_address,
         "os": platform.system(),
         "os_version": platform.version(),
+        "cpu": platform.processor(),
         "architecture": platform.machine(),
+        "username": getpass.getuser(),
     }

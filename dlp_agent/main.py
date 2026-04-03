@@ -19,7 +19,8 @@ from dlp_agent.config import load_policy
 @click.option('--debug', is_flag=True, help='Enable debug logging')
 @click.option('--json-out', help='Path to output JSON logs', required=False)
 @click.option('--web', is_flag=True, help='Send logs to the dashboard page in real time')
-@click.option('--web-url', default='https://dlp.gtis.ai/dashboard/logs', show_default=True,
+
+@click.option('--web-url', default='https://dlp.gtis.ai/api/dashboard/logs', show_default=True,
               help='Dashboard endpoint URL to POST logs to (used with --web)')
 def main(scan_dir, policy, debug, json_out, web, web_url):
     """DLP Agent - Detect Sensitive Data."""
@@ -43,19 +44,21 @@ def main(scan_dir, policy, debug, json_out, web, web_url):
         sinks = [CliSink()]
         if json_out:
             sinks.append(JsonSink(json_out))
+        from dlp_agent.utils.device_info import get_device_info
+        device_info = get_device_info()
+        agent_id = device_info.get("agent_id", "node-001")
+
         if web:
             click.echo(f"[WebSink] Sending logs to dashboard -> {web_url}")
             web_sink = WebSink(url=web_url)
             sinks.append(web_sink)
             # Send device metadata once at scan start
-            from dlp_agent.utils.device_info import get_device_info
-            device_info = get_device_info()
             click.echo(f"[WebSink] Device: {device_info['device_name']} | IP: {device_info['ip_address']} | MAC: {device_info['mac_address']}")
-            device_url = web_url.replace("/api/dashboard/logs", "/api/dashboard/device")
+            device_url = web_url.replace("/logs", "/device")
             web_sink.send_device_info(device_info, device_url=device_url)
         
         walker = FileWalker(policy_config, debug=debug)
-        processor = StreamProcessor(policy_config, sinks=sinks)
+        processor = StreamProcessor(policy_config, sinks=sinks, agent_id=agent_id)
         
         scanned_files = 0
         total_findings = 0
