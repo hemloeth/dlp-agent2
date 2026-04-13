@@ -1,7 +1,16 @@
 def luhn_check(number: str) -> bool:
     """
-    Validate a number using the Luhn algorithm.
-    Input should be a string of digits.
+    Validate a number using the Luhn algorithm (Mod 10).
+    
+    The algorithm works by doubling every second digit from the right,
+    summing the digits of the result if it's > 9, and then checking
+    if the total sum of all digits is divisible by 10.
+    
+    Args:
+        number: A string of digits (e.g., credit card number).
+        
+    Returns:
+        True if the number is valid according to Luhn, False otherwise.
     """
     if not number.isdigit():
         return False

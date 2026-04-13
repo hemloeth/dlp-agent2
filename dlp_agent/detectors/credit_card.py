@@ -39,22 +39,7 @@ def detect_credit_cards(text: str) -> list[DetectionEvent]:
             if check_bin_exists(bin_number) is False:
                 continue
                 
-        # Length check - User specifically requested "any 16 digit" to be founds
-        # Original spec was 13-19, but user request overrides for broad 16-digit detection.
-        # We will keep the 13-19 regex to capture them, but VALIDATE any 16 digit number blindly.
-        if len(clean_number) == 16:
-            event = DetectionEvent.create(
-                rule="Credit Card",
-                severity="Medium", # Lower confidence since no checksum
-                raw_value=clean_number,
-                masked_value=mask_credit_card(clean_number),
-                source={}, # To be populated by scanner
-                context_snippet=None
-            )
-            findings.append(event)
-            continue
-
-        # For non-16 digit numbers (13-15, 17-19)
+        # Standard logic for all supported lengths (13-19 digits)
         if 13 <= len(clean_number) <= 19:
              if luhn_check(clean_number):
                 event = DetectionEvent.create(
