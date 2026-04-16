@@ -1,10 +1,23 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+from PyInstaller.utils.hooks import collect_data_files, copy_metadata, collect_dynamic_libs
+
+easyocr_datas = collect_data_files('easyocr')
+easyocr_meta = copy_metadata('easyocr')
+torch_meta = copy_metadata('torch')
+torch_datas = collect_data_files('torch')
+docx_meta = copy_metadata('python-docx')
+openpyxl_meta = copy_metadata('openpyxl')
+
+# Combine all datas
+all_datas = [("dlp_agent", "dlp_agent")] + easyocr_datas + easyocr_meta + torch_meta + torch_datas + docx_meta + openpyxl_meta
+all_binaries = collect_dynamic_libs('torch')
+
 a = Analysis(
     ['entry_point.py'],
     pathex=[],
-    binaries=[],
-    datas=[('dlp_agent', 'dlp_agent')],
+    binaries=all_binaries,
+    datas=all_datas,
     hiddenimports=[
         'easyocr',
         'easyocr.easyocr',

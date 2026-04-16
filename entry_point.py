@@ -21,5 +21,8 @@ except ImportError as e:
     print(f"Error: Could not import dlp_agent. Make sure the directory structure is correct. {e}")
     sys.exit(1)
 
+import multiprocessing
+
 if __name__ == "__main__":
+    multiprocessing.freeze_support()
     main()
