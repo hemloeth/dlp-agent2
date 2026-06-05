@@ -4,11 +4,28 @@ import urllib.error
 from dlp_agent.utils.checksums import luhn_check
 from dlp_agent.events.model import DetectionEvent
 
-# Regex for finding potential card numbers (13-19 digits, allowing spaces/hyphens)
-CC_PATTERN = re.compile(r'\b(?:\d[ -]*?){13,19}\b')
+# Tighter pattern: digits optionally separated by spaces or hyphens, word-bounded
+CC_PATTERN = re.compile(r'\b(\d{4}[ -]?\d{4}[ -]?\d{4}[ -]?\d{1,7}|\d{13,19})\b')
 
-def check_bin_exists(bin_number: str) -> bool:
-    """Checks if a 6-digit BIN exists via the specified API."""
+POSITIVE_KEYWORDS = [
+    'card', 'credit', 'debit', 'visa', 'mastercard', 'amex', 'discover',
+    'payment', 'cvv', 'cvc', 'expir', 'billing', 'checkout', 'pan',
+    'cardholder', 'transaction', 'charge', 'merchant', 'bank'
+]
+
+NEGATIVE_KEYWORDS = [
+    'phone', 'tel', 'mobile', 'invoice', 'order', 'tracking', 'employee',
+    'model', 'serial', 'version', 'build', 'zip', 'postal', 'id:', 'ref'
+]
+
+
+def check_bin_exists(bin_number: str) -> bool | None:
+    """
+    Returns:
+        True  — BIN confirmed valid
+        False — BIN confirmed invalid (404)
+        None  — API unreachable / timeout (treat as inconclusive)
+    """
     url = f"https://binapi-chty.onrender.com/api/bins/{bin_number}"
     try:
         req = urllib.request.Request(url, method="GET")
@@ -17,45 +34,76 @@ def check_bin_exists(bin_number: str) -> bool:
     except urllib.error.HTTPError as e:
         if e.code == 404:
             return False
-        return None
+        return None  # 5xx or other HTTP errors — inconclusive
     except Exception:
-        return None
+        return None  # network timeout, DNS failure, etc.
 
-def detect_credit_cards(text: str) -> list[DetectionEvent]:
+
+def context_score(text: str, match_start: int, window: int = 120) -> int:
+    """Score the context around a match. Positive = more likely a real card."""
+    snippet = text[max(0, match_start - window): match_start + window].lower()
+    score = sum(2 for kw in POSITIVE_KEYWORDS if kw in snippet)
+    score -= sum(3 for kw in NEGATIVE_KEYWORDS if kw in snippet)
+    return score
+
+
+def detect_credit_cards(
+    text: str,
+    require_bin: bool = True,
+    context_threshold: int = 0,  # 0 = neutral, raise to 2+ for stricter
+) -> list[DetectionEvent]:
     """
     Scan text for credit card numbers.
     Returns a list of DetectionEvent objects.
     """
     findings = []
-    
+
     for match in CC_PATTERN.finditer(text):
         raw_match = match.group()
-        # Clean the match (remove spaces, hyphens)
         clean_number = re.sub(r'[ -]', '', raw_match)
-        
-        # Check BIN first (first 6 digits)
-        if len(clean_number) >= 6:
-            bin_number = clean_number[:6]
-            if check_bin_exists(bin_number) is False:
+
+        # Length guard (also catches regex edge cases)
+        if not (13 <= len(clean_number) <= 19):
+            continue
+
+        # BIN check (first 6 digits)
+        if require_bin and len(clean_number) >= 6:
+            bin_result = check_bin_exists(clean_number[:6])
+            if bin_result is False:
+                # Confirmed invalid BIN — skip
                 continue
-                
-        # Standard logic for all supported lengths (13-19 digits)
-        if 13 <= len(clean_number) <= 19:
-             if luhn_check(clean_number):
-                event = DetectionEvent.create(
-                    rule="Credit Card",
-                    severity="High",
-                    raw_value=clean_number,
-                    masked_value=mask_credit_card(clean_number),
-                    source={},
-                    context_snippet=None
-                )
-                findings.append(event)
-            
+            # bin_result is True or None: proceed to Luhn either way
+
+        # Luhn check — always runs, not nested under BIN block
+        if not luhn_check(clean_number):
+            continue
+
+        # Context scoring — skip likely false positives
+        if context_score(text, match.start()) < context_threshold:
+            continue
+
+        event = DetectionEvent.create(
+            rule="Credit Card",
+            severity="High",
+            raw_value=clean_number,
+            masked_value=mask_credit_card(clean_number),
+            source={},
+            context_snippet=_extract_snippet(text, match.start()),
+        )
+        findings.append(event)
+
     return findings
 
+
 def mask_credit_card(number: str) -> str:
-    """Masks credit card number: ************1111"""
+    """Masks all but last 4 digits: ************1111"""
     if len(number) < 4:
-        return number 
+        return number
     return '*' * (len(number) - 4) + number[-4:]
+
+
+def _extract_snippet(text: str, pos: int, window: int = 60) -> str:
+    """Returns surrounding text for the context_snippet field."""
+    start = max(0, pos - window)
+    end = min(len(text), pos + window)
+    return text[start:end].strip()
